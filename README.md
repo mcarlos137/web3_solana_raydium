@@ -23,11 +23,6 @@ $ ./gateway-setup.sh
 $ yarn start --passphrase=<PASSPHRASE>
 ```
 
-## Documentation
-
-The API is documented using [Swagger](./docs/swagger). When Gateway is started, it also generates Swagger API docs at: https://localhost:8080
-
-
 ### Configuration
 
 - If you want to turn off `https`, set `unsafeDevModeWithHTTP` to `true` in [conf/server.yml](./conf/server.yml). 
